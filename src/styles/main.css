@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.textBold{
+  color: #fff;
+  font-weight: bold;
+}
+.gradiant{
+  background: radial-gradient(circle,#004b7c 25%,#002750);
+}
+.textLink{
+  text-decoration:underline ;
+  color: #f8b700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
