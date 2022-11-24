@@ -75,6 +75,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 <br>
   <img src="./images/print9.jpg" width="100%">
 </p>
+
+<br>
+
 ## 💻 Projeto
 
 O projeto é uma cópia do e-mail de **Wrath of the Lich King Classic**, da empresa **Blizzard** e foi recriado para treinar as tecnologias utilizadas. O foco também foi a criação de componentes e organização dos mesmos.
