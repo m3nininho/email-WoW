@@ -1,8 +1,9 @@
-import sectionOneImg from '../../../images/sectionOne.png'
+import sectionOneImg from '../../../images/firstSession.png'
 import mountImg from '../../../images/mount.png'
+import Button from '../Button'
 
 
-function SectionOne(){
+function FirstSession(){
 return /*html*/ `
 
   <section>
@@ -20,9 +21,20 @@ return /*html*/ `
       </div>
       <div class=" px-10">
         <p class="text-textDefault text-xl">A<span class="textLink"> profissão Escrivania</span> agora também está disponível para quem almeja uma vida de escriba. Aprenda a gravar palavras de poder em pergaminhos com magia, o que permite criar <span class="textBold">Pergaminhos, Tomos, Cartas de Negraluna, Glifos e Inscrições do Mestre</span>. Siga para a capital mais próxima para encontrar um treinador de Escrivania e não esqueça de pedir informações a um guarda se você se perder. </p>
+        <p class="text-textDefault text-xl mt-5" >
+        Prepare-se para a jornada à sua espera e saiba mais sobre a paisagem gélida da Nortúndria lendo o <span class="textLink">Guia de área da Nortúndria</span>, que cobre as florestas sombrias dos <span class="textBold">Fiorde Uivante</span> às florestas verdejantes da <span>Bacia Sholazar</span>, inclusive o grande centro de poder que é a Coroa de Gelo.</p>
+      </div>
+      <div class=" text-center mt-16 mb-10">
+        ${Button('Desperte sua fúria', 'https://worldofwarcraft.com/pt-br/news/23850854/quebre-o-gelo-wrath-of-the-lich-king-classic%E2%84%A2-j%C3%A1-est%C3%A1-dispon%C3%ADvel?utm_source=wowc-wotlkc-launch-3-20220926&utm_medium=email&utm_campaign=marketing-br-3&utm_content=button-link-unleash-your-wrath')} 
+      </div>
+      <div  class=" text-textDefault text-sm italic text-center mt-5 p-10">
+        <p>* Requer assinatura de World of Warcraft. O Cavaleiro da Morte pode chegar ao nível 70 e não requer mais um personagem de nível 55 ou acima para ser criado, exceto nos reinos de Novos Inícios de Wrath Classic que serão com o patch pré-expansão. .</p>
+        <p class= " mt-10 mb-10">
+        ** Requer assinatura de World of Warcraft. A experiência inicial do Cavaleiro da Morte culmina na conclusão da missão "Onde reis caminham", com personagens da Aliança, ou "Bênção do Chefe Guerreiro", com personagens da Horda. </p>
+        <p class=" mb-5"> *** Requer assinatura de World of Warcraft. Montaria indisponível no WoW® Classic.</p>
       </div>
     </div>
   </section>
 `
 }
-export default SectionOne
+export default FirstSession

@@ -1,9 +1,9 @@
-function Button(text){
+function Button(text, link){
 
 return /*html*/`
-<button class=" text-textWhite gradiant py-4 w-52 uppercase font-bold text-lg">
+<a href=${link} class=" text-textWhite gradiant py-4 px-10 w-52 uppercase font-bold text-lg">
 ${text}
-</button>
+</a>
 `
 }
 export default Button

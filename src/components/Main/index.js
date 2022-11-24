@@ -15,8 +15,8 @@ return /*html*/`
       <p class="text-textDefault text-xl"><span class=" italic">Wrath of the Lich King® Classic™*</span> <span class="textBold">já está disponível</span> e pronto para ser explorado, Fulano! </p>
       <p class=" text-textDefault  text-xl mt-12">Reúna seus aliados e atenda ao chamado às armas. Azeroth se prepara para enfrentar o <span class="textBold">Lich Rei</span> e seu exército do <span class="textBold">Flagelo</span>. Os lacaios do Lich Reisão infindos, bem como a obstinação dele, portanto reúna suas forças e prepare-se para uma longa jornada.</p>
     </div>
-    <div class=" text-center mt-12">
-     ${Button('Saiba mais')} 
+    <div class=" text-center mt-12 pb-5">
+     ${Button('Saiba mais', 'https://wowclassic.blizzard.com/pt-br?utm_source=wowc-wotlkc-launch-3-20220926&utm_medium=email&utm_campaign=marketing-br-3&utm_content=button-link-learn-more')} 
     </div>
     <p class=" text-textDefault text-sm italic text-center mt-5">* Requer assinatura de World of Warcraft®.</p>
   </div>

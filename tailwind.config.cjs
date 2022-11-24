@@ -9,7 +9,8 @@ module.exports = {
       colorTitle: '#88c9fb',
       textDefault: '#aeafb3',
       textWhite: '#FFF',
-      bgButton: '#004b7c'
+      bgButton: '#004b7c',
+      textLinkFooter: '#f8b700'
     },
   },
   plugins: [],
